@@ -4,18 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My first site</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
+    <header class="header">
      <h1>
-        <i>My first site </i>
+        <i>MY FIRST SITE</i>
     </h1>
-<ul>
-    <li><a href="./index.html">Home</a></li>
-    <li><a href="./about.html">About</a></li>
-    <li><a href="./blog.html">Blog</a></li>
-    <li><a href="./contact.html">Contact</a></li>
+    <!-- Navigation bar-->
+<ul class="navbar-nav">
+    <li class="nav-item"><a href="./index.html"><i class="fas fa-home"></i>Home</a></li>
+    <li class="nav-item"><a href="./about.html"><i class="fas fa-book-open"></i>About us</a></li>
+    <li class="nav-item"><a href="./blog.html"><i class="fas fa-blog"></i>Blog</a></li>
+    <li class="nav-item"><a href="./contact.html"><i class="fas fa-address-card"></i>Contact</a></li>
 </ul>
-    <h2>
+
+</header>
+  <!-- Page Content -->
+<h2>
             <b>What is Lorem Ipsum?</b>
         </h2>
            <p> 
@@ -32,6 +39,17 @@
             Aldus PageMaker including versions of <b>Lorem Ipsum</b>.
         </br>
     </p>
-    <div><img src="images1/alfa-romeo-giulia67-1_0.jpg"></div>
-</body>
+    <div class="image"><img src="images1/alfa-romeo-giulia67-1_0.jpg"></div>
+    <!-- Footer -->
+    <footer class="bg-dark text-white">
+    <div class="footer-icon">
+        <ul class="navbar-nav">
+        <li><a class="footer-link" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+        <li><a class="footer-link" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i> Facebook</a></li>
+        <li><a class="footer-link" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram" ></i> Instagram</a></li>
+        <li><a class="footer-link" href="https://www.google.com/" target="_blank"><i class="fab fa-google-plus"></i> Google</a></li>
+       </ul>
+    </div>
+    </footer>
+    </body>
 </html>
